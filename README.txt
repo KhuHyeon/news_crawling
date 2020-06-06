@@ -1,1 +1,1 @@
-Naver & Google news crawler
+Naver & Google news crawler with Selenium
