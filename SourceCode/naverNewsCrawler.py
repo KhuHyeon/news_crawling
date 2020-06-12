@@ -117,6 +117,7 @@ def create_naver_news(keyword_input):
         news_dict = naver_news_clipping(keyword_input, page)
         news_dict_list.append(news_dict)
     '''
+
     # 동시에 여러 페이지 크롤링하기(병렬화)
     page_list = list(range(limit_page))
     pool = Pool(processes=4)
