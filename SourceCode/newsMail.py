@@ -9,8 +9,8 @@ def sendNewsByGmail(news_items,subject="NoTitle"):
     smtp_server.ehlo()
     smtp_server.starttls()
     # Gmail server login
-    my_addr = 'hong867103120@gmail.com'
-    my_pw = 'dovftlheucluhbdj'
+    my_addr = 'e-mail'
+    my_pw = 'pw'
     smtp_server.login(user=my_addr, password=my_pw)
     # 보낼 내용
     body = ""

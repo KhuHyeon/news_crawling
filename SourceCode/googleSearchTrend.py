@@ -5,8 +5,7 @@ import os
 def google_search_trend():
     keyword = input("키워드를 입력하세요 : ")
     # 검색 기간 설정
-    input_period = input("검색기간을 숫자로 입력해주세요(단위-Month) : ")
-    period = "today {}-m".format(input_period)
+    period = "today 3-m"
 
     # matplotlib 한글폰트 오류 해결
     from matplotlib import font_manager, rc
